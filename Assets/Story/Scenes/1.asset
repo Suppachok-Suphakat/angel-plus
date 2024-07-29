@@ -18,12 +18,7 @@ MonoBehaviour:
       better life.)
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
     music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
   - text: (Now, I've been at my new job for five months. Thankfully, my new coworkers

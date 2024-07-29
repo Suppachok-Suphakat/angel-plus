@@ -89,8 +89,8 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
       spriteIndex: 1
-      actionType: 0
-      coords: {x: 0, y: 0}
+      actionType: 2
+      coords: {x: 100, y: 0}
       moveSpeed: 0
     music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
     sound: {fileID: 0}
@@ -119,10 +119,10 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
-      spriteIndex: 1
+      spriteIndex: 4
       actionType: 2
-      coords: {x: 0, y: 0}
-      moveSpeed: 500
+      coords: {x: 100, y: 0}
+      moveSpeed: 300
     music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
     sound: {fileID: 0}
   - text: What if I asked you out? What would you think?
@@ -131,9 +131,9 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
       spriteIndex: 4
-      actionType: 1
+      actionType: 2
       coords: {x: 0, y: 0}
-      moveSpeed: 0
+      moveSpeed: 100
     music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
     sound: {fileID: 0}
   - text: H...Haha, don't joke around like that.
@@ -160,7 +160,7 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
       spriteIndex: 2
-      actionType: 0
+      actionType: 2
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}

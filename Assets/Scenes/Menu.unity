@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 217719006}
   - component: {fileID: 217719005}
   m_Layer: 5
-  m_Name: Quit_Button
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2192,7 +2192,7 @@ GameObject:
   - component: {fileID: 1569913890}
   - component: {fileID: 1569913889}
   m_Layer: 5
-  m_Name: Options_Button
+  m_Name: OptionsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3063,6 +3063,7 @@ MonoBehaviour:
   loaderScene: Loader
   menuScene: Menu
   chooseScene: Choose
+  sceneToLoad: DonutMenu
   musicValue: {fileID: 1668688376}
   musicMixer: {fileID: 24100000, guid: 701ffd58a5e3d5e438b9a7b41ded6153, type: 2}
   soundsValue: {fileID: 1308270287}

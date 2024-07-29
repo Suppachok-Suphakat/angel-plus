@@ -9,6 +9,7 @@ public class MenuController : MonoBehaviour
     public string loaderScene;
     public string menuScene;
     public string chooseScene;
+    public InputField sceneToLoad;
 
     public TextMeshProUGUI musicValue;
     public AudioMixer musicMixer;
@@ -48,6 +49,12 @@ public class MenuController : MonoBehaviour
     public void Choose()
     {
         SceneManager.LoadScene(chooseScene, LoadSceneMode.Additive);
+    }
+
+    public void GoTo()
+    {
+        string sceneName = sceneToLoad.text;
+        SceneManager.LoadScene(sceneName);
     }
 
     public void ShowOptions()

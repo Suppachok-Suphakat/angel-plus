@@ -375,8 +375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 81.589966, y: -256.3876}
-  m_SizeDelta: {x: 402.3695, y: 197.942}
+  m_AnchoredPosition: {x: 82, y: -240}
+  m_SizeDelta: {x: 450.6927, y: 249.2854}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183552561
 MonoBehaviour:
@@ -398,7 +398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5b0fb2f27438774aba2e6401c7df47c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04a6c9bf6de03b3439aca3ddcc53cf4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -922,8 +922,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -34.670044, y: -222.54007}
-  m_SizeDelta: {x: 402.3695, y: 197.942}
+  m_AnchoredPosition: {x: -33, y: -206}
+  m_SizeDelta: {x: 508.0766, y: 291.5682}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423948001
 MonoBehaviour:
@@ -945,7 +945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5b0fb2f27438774aba2e6401c7df47c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04a6c9bf6de03b3439aca3ddcc53cf4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1730,8 +1730,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 70.684814, y: -145.13214}
-  m_SizeDelta: {x: 402.3695, y: 197.942}
+  m_AnchoredPosition: {x: 77.401, y: -129}
+  m_SizeDelta: {x: 535.2583, y: 321.7701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870715965
 MonoBehaviour:
@@ -1753,7 +1753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f5b0fb2f27438774aba2e6401c7df47c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04a6c9bf6de03b3439aca3ddcc53cf4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3792,6 +3792,7 @@ MonoBehaviour:
   loaderScene: Loader
   menuScene: Menu
   chooseScene: DonutMenu
+  sceneToLoad: {fileID: 0}
   musicValue: {fileID: 1668688376}
   musicMixer: {fileID: 24100000, guid: 701ffd58a5e3d5e438b9a7b41ded6153, type: 2}
   soundsValue: {fileID: 1308270287}
