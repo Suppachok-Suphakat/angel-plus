@@ -17,7 +17,7 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Khun Donut is making coffee too...
     audio: {fileID: 0}
@@ -28,7 +28,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 795537c7674a79f469626e5e406818fa, type: 3}
   nextScene: {fileID: 11400000, guid: efddddade2b54e2408ce6526ffd66cf0, type: 2}

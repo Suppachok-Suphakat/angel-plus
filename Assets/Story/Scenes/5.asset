@@ -18,13 +18,13 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: (I must not act awkward.)
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 8300000, guid: 2a7216b3066a4cb4394ef609356dd880, type: 3}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 622e41ddcfb6b764bb3e5e857e0cc5c4, type: 3}
   nextScene: {fileID: 11400000, guid: 96ead56512f54bb439696fcc92e1ee89, type: 2}

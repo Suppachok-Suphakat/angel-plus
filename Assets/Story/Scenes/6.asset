@@ -17,7 +17,7 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Good morning! Early as always, I see.
     audio: {fileID: 0}
@@ -28,7 +28,7 @@ MonoBehaviour:
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Yes, I wake up early as usual.
     audio: {fileID: 0}
@@ -45,25 +45,25 @@ MonoBehaviour:
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Thank you, boss...
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: So... do you have any special plans after work?
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Nothing special. Probably just resting at home.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, no dates with any girls?
     audio: {fileID: 0}
@@ -74,13 +74,13 @@ MonoBehaviour:
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Haha... no, no dates yet.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: 'Really? That''s surprising. A handsome guy like you should have lots of
       girls chasing after. '
@@ -88,40 +88,45 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
-      spriteIndex: 1
-      actionType: 2
-      coords: {x: 100, y: 0}
+      spriteIndex: 3
+      actionType: 3
+      coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    - speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: (Donut moves closer, her chest is now fully in view. Ahh, what should I
       do?)
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: N...No, not at all.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: (My heart is pounding so hard it feels like it's about to burst out of
       my chest)
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: (I slowly look away from her chest, hoping she doesn't notice)
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
-      spriteIndex: 4
+    - speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
+      spriteIndex: 3
       actionType: 2
-      coords: {x: 100, y: 0}
+      coords: {x: 700, y: 0}
       moveSpeed: 300
     music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
     sound: {fileID: 0}
@@ -129,41 +134,51 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
-      spriteIndex: 4
+    - speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
+      spriteIndex: 3
       actionType: 2
       coords: {x: 0, y: 0}
-      moveSpeed: 100
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+      moveSpeed: 300
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: H...Haha, don't joke around like that.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: (I can feel my ears burning. My face must be red now)
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Oh, you're so cute.
     audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
-    actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
+      spriteIndex: 2
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Okay, let's get to work. See you in the conference room, Cupcake~
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
+    - speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
       spriteIndex: 2
-      actionType: 2
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    - speaker: {fileID: 11400000, guid: 8af67922b98ed7e4f8596ca297dd0402, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: She says that and walks away from the coffee station.
     audio: {fileID: 0}
