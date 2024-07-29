@@ -17,7 +17,7 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 2a7216b3066a4cb4394ef609356dd880, type: 3}
     sound: {fileID: 0}
   - text: Good morning! Early as always, I see.
     audio: {fileID: 0}
@@ -34,7 +34,7 @@ MonoBehaviour:
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Hmm... Waking up like this, you're really diligent...
     audio: {fileID: 0}
@@ -126,9 +126,9 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: c4a6eb3ebdef2b640b651902b0d210b3, type: 2}
       spriteIndex: 3
       actionType: 2
-      coords: {x: 700, y: 0}
-      moveSpeed: 300
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+      coords: {x: 500, y: 0}
+      moveSpeed: 1
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: What if I asked you out? What would you think?
     audio: {fileID: 0}
@@ -138,7 +138,7 @@ MonoBehaviour:
       spriteIndex: 3
       actionType: 2
       coords: {x: 0, y: 0}
-      moveSpeed: 300
+      moveSpeed: 1
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: H...Haha, don't joke around like that.
@@ -189,19 +189,19 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: And yes, the boss calls me "Cupcake"...
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: Will I still be sane enough to attend the meeting?
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
-    music: {fileID: 8300000, guid: cfd9b775032f1b44a8309d0a5239016a, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 795537c7674a79f469626e5e406818fa, type: 3}
   nextScene: {fileID: 0}
