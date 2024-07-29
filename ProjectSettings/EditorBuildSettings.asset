@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Loader.unity
     guid: 08ec52e1d5e86f2408d1fd0ea46b3255
+  - enabled: 1
+    path: Assets/Scenes/Choose.unity
+    guid: aebaed96884ed8a4eb54f1757f5f124d
+  - enabled: 1
+    path: Assets/Scenes/DonutMenu.unity
+    guid: 2cb0f9ca130851048b850fa578514b23
   m_configObjects: {}
