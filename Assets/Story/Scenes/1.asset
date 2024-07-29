@@ -13,27 +13,39 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Just another day in my room. Gonna sleep all day long...
-    audio: {fileID: 8300000, guid: 686e7cadb8945d3488503354244d5f5d, type: 3}
-    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
-      spriteIndex: 0
-      actionType: 1
-      coords: {x: 400, y: 0}
-      moveSpeed: 0
+  - text: (I resigned from my old job because I couldn't get along with my colleagues.
+      Resigning wasn't easy, but I knew I needed to find new opportunities for a
+      better life.)
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
     music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
-  - text: ...
+  - text: (Now, I've been at my new job for five months. Thankfully, my new coworkers
+      are friendly and welcoming. They always lend a hand when I need it.)
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  - text: '(But there''s still something I dream about: love. Finding someone to
+      share my life with would be amazing. I hope to meet a girl who likes me for
+      who I am.)'
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    - speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
       spriteIndex: 0
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: fa238270389c60246a66b9da7631e9a6, type: 3}
-  nextScene: {fileID: 11400000, guid: ec653d3b374221d408db5c177e47d902, type: 2}
+  - text: ...
+    audio: {fileID: 0}
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 622e41ddcfb6b764bb3e5e857e0cc5c4, type: 3}
+  nextScene: {fileID: 11400000, guid: 5a227718f9adde8459ae4099f6eafac6, type: 2}
