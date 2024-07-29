@@ -1000,8 +1000,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hello there!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: df7f6e1c9f898654b95712938cc19f02, type: 2}
+  m_sharedMaterial: {fileID: -1623198959476884511, guid: df7f6e1c9f898654b95712938cc19f02, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1455,8 +1455,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Carl
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a6a7c058035e53b45b53995f2adde746, type: 2}
+  m_sharedMaterial: {fileID: 2605086596454108616, guid: a6a7c058035e53b45b53995f2adde746, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
