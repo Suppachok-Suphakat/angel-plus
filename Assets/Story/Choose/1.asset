@@ -15,5 +15,9 @@ MonoBehaviour:
   labels:
   - text: Join the company now
     nextScene: {fileID: 11400000, guid: 322cc1a5845dec844a3dab162f68e0ff, type: 2}
+    heartChange: 1
+    choiceSound: {fileID: 8300000, guid: cfc727c4485524842b984e5a1448b5b1, type: 3}
   - text: Stop at the coffee shop next to the company
     nextScene: {fileID: 0}
+    heartChange: 0
+    choiceSound: {fileID: 0}

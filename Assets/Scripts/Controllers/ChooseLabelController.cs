@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems;
+using static ChooseScene;
 
 public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
@@ -9,6 +10,8 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     private StoryScene scene;
     private TextMeshProUGUI textMesh;
     private ChooseController controller;
+
+    private ChooseScene.ChooseLabel chooseLabel;
 
     void Awake()
     {
@@ -27,6 +30,8 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
         textMesh.text = label.text;
         this.controller = controller;
 
+        chooseLabel = label;
+
         Vector3 position = textMesh.rectTransform.localPosition;
         position.y = y;
         textMesh.rectTransform.localPosition = position;
@@ -34,6 +39,20 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (chooseLabel.heartChange > 0)
+        {
+            Heart.Instance.IncreaseHeart();
+        }
+        else if (chooseLabel.heartChange < 0)
+        {
+            Heart.Instance.DecreaseHeart();
+        }
+
+        if (chooseLabel.choiceSound != null)
+        {
+            controller.PlayAudio(chooseLabel.choiceSound);
+        }
+
         controller.PerformChoose(scene);
     }
 

@@ -758,10 +758,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 55d465c9876fe3c459a828d7b6f1284c, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 55d465c9876fe3c459a828d7b6f1284c, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 55d465c9876fe3c459a828d7b6f1284c, type: 3}
-    m_DisabledSprite: {fileID: 21300000, guid: 55d465c9876fe3c459a828d7b6f1284c, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: af5eafb17801baf40bf365ff7660e882, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: af5eafb17801baf40bf365ff7660e882, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: af5eafb17801baf40bf365ff7660e882, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: af5eafb17801baf40bf365ff7660e882, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -2151,7 +2151,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f6ed0c244754b8b418c667132095b7fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 55d465c9876fe3c459a828d7b6f1284c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3792,7 +3792,6 @@ MonoBehaviour:
   loaderScene: Loader
   menuScene: Menu
   chooseScene: DonutMenu
-  sceneToLoad: {fileID: 0}
   musicValue: {fileID: 1668688376}
   musicMixer: {fileID: 24100000, guid: 701ffd58a5e3d5e438b9a7b41ded6153, type: 2}
   soundsValue: {fileID: 1308270287}

@@ -13,5 +13,7 @@ public class ChooseScene : GameScene
     {
         public string text;
         public StoryScene nextScene;
+        public int heartChange;
+        public AudioClip choiceSound;
     }
 }

@@ -11,6 +11,8 @@ public class ChooseController : MonoBehaviour
     private Animator animator;
     private float labelHeight = -1;
 
+    public AudioController audioController;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -80,5 +82,10 @@ public class ChooseController : MonoBehaviour
         {
             Destroy(childTransform.gameObject);
         }
+    }
+
+    public void PlayAudio(AudioClip sfx)
+    {
+        audioController.PlaySFX(sfx);
     }
 }

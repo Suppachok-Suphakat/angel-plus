@@ -45,4 +45,12 @@ public class AudioController : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
     }
+
+    public void PlaySFX(AudioClip sfx)
+    {
+        if (sfx != null)
+        {
+            soundSource.PlayOneShot(sfx);
+        }
+    }
 }
